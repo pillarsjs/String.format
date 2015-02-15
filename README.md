@@ -1,10 +1,16 @@
 # String.format
-Añade a [String.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) el método `.format()`. 
+Añade a [String.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) el método `.format()`. [npm](https://www.npmjs.com/package/string.format)
 
 Él método `String.prototype.format()` permite reemplazar en un **string** las variables pasadas como parámetro. Se reemplazan las variables encerradas entre llaves `{}`, con las siguientes posibilidades en la cadena de texto:
 + Números entre llaves: {1}, {2}
 + Variables entre llaves: {name}, {lastname}
 + Objetos entre llaves: {user.name}, {user.lastname}
+
+
+```javascript
+require('string.format');
+```
+
 
 ```javascript
 var text = "Hello {name} {lastname}!";
