@@ -1,0 +1,19 @@
+{
+  "name": "string.format",
+  "description": "String prototype method -> 'Hello {name}!'.format({name:'Homer'});",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bifuer",
+    "email": "bifuer@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bifuer/string.format"
+  },
+  "main": "./format.js",
+  "scripts": {},
+  "dependencies": {
+  	"json.decycled":"*"
+  },
+  "readmeFilename": "readme.md"
+}
