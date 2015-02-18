@@ -6,14 +6,45 @@
     "name": "Bifuer",
     "email": "bifuer@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Chelo Quilón Gomez",
+      "email": "cheloq@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/bifuer/string.format",
+  "bugs": {
+    "url": "https://github.com/bifuer/string.format/issues",
+    "email" : "cheloq@gmail.com"
+  },
+  "keywords": [
+    "string",
+    "format",
+    "parse",
+    "beautify",
+    "pattern"
+  ],
+  "dependencies": {
+    "json.decycled":"*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "unit.js": "*"
+  },
+  "main": "./index.js",
+  "scripts": {
+     "test": "mocha test/"
+  },
+  "preferGlobal": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/bifuer/string.format"
   },
-  "main": "./format.js",
-  "scripts": {},
-  "dependencies": {
-  	"json.decycled":"*"
-  },
-  "readmeFilename": "readme.md"
+   "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "readmeFilename": "README.md",
+   "license": "MIT"
 }
