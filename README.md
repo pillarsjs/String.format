@@ -64,7 +64,6 @@ MIT
 
 ## String.format (es)
 
-# String.format
 Añade a [String.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) el método `.format()` que acepta como parámetro un objeto o un array con valores que serán sustituidos en el string en base a un patrón de sustitución. [npm](https://www.npmjs.com/package/string.format)
 
 ## Licencia
