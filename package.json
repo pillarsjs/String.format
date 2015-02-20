@@ -1,7 +1,7 @@
 {
   "name": "string.format",
   "description": "String prototype method -> 'Hello {name}!'.format({name:'Homer'});",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Bifuer",
     "email": "bifuer@gmail.com"
