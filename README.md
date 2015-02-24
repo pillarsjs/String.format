@@ -3,7 +3,12 @@
 
 Languages:[[EN](#),[ES](#stringformat-es)]
 
-Add to [JS String.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) `.format()` method which accepts as parameter an object or an array with values to be substituted in the string, based on a pattern. 
+Add to [JS String.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) `.format()` method which accepts as parameter an object or an array with values to be substituted in the string, based on a pattern.
+
+> String.format uses [JSON.decycled](https://github.com/bifuer/JSON.decycled) for show Objects as String without circular references errors and some related problems.
+
+> For Date object format you can use [Date.format](https://github.com/bifuer/Date.format)
+
 [npm](https://www.npmjs.com/package/string.format)
 
 ```javascript
@@ -64,7 +69,13 @@ MIT
 
 ## String.format (es)
 
-Añade a [String.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) el método `.format()` que acepta como parámetro un objeto o un array con valores que serán sustituidos en el string en base a un patrón de sustitución. [npm](https://www.npmjs.com/package/string.format)
+Añade a [String.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) el método `.format()` que acepta como parámetro un objeto o un array con valores que serán sustituidos en el string en base a un patrón de sustitución.
+
+> String.format utiliza [JSON.decycled](https://github.com/bifuer/JSON.decycled) para monstar objetos como strings sin errores de referencia circular y otros problemas relacionados.
+
+> Para ampliar las funciones de String.format en el caso de objetos Date puede resultarte util [Date.format](https://github.com/bifuer/Date.format)
+
+[npm](https://www.npmjs.com/package/string.format)
 
 ## Licencia
 MIT
