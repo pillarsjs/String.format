@@ -13,7 +13,9 @@ function format(string,params){
     try {
       capture = '["'+capture.split('.').join('"]["')+'"]';
       replace = eval('params'+capture);
-      replace = JSON.decycled(replace).replace(/(^\"|\"$)/g,'').replace(/(\\n|\\r)/g,'\n').replace(/\\t/g,'\t');
+      if(typeof replace === 'string'){
+        replace = JSON.decycled(replace).replace(/(^\"|\"$)/g,'').replace(/(\\n|\\r)/g,'\n').replace(/\\t/g,'\t');
+      }
       return replace;
     } catch(error){
       return match;
