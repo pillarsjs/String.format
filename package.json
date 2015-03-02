@@ -1,7 +1,7 @@
 {
   "name": "string.format",
   "description": "String prototype method -> 'Hello {name}!'.format({name:'Homer'});",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": {
     "name": "Bifuer",
     "email": "bifuer@gmail.com"
@@ -13,6 +13,10 @@
     }
   ],
   "homepage": "https://github.com/bifuer/string.format",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bifuer/string.format"
+  },
   "bugs": {
     "url": "https://github.com/bifuer/string.format/issues",
     "email" : "cheloq@gmail.com"
@@ -22,7 +26,10 @@
     "format",
     "parse",
     "beautify",
-    "pattern"
+    "pattern",
+    "node",
+    "js",
+    "javascript"
   ],
   "dependencies": {
     "json.decycled":"*"
@@ -33,18 +40,14 @@
   },
   "main": "./index.js",
   "scripts": {
-     "test": "mocha test/"
+    "test": "mocha test/"
   },
   "preferGlobal": false,
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bifuer/string.format"
-  },
-   "files": [
+  "files": [
     "LICENSE",
     "README.md",
     "index.js"
   ],
   "readmeFilename": "README.md",
-   "license": "MIT"
+  "license": "MIT"
 }
