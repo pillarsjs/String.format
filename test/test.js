@@ -21,7 +21,7 @@ describe("String.format Library ",function(){
         .value(text({name:'hola', lastname:'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         '}))
           .is('Hello hola                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          !')
         .value(text({name:undefined, lastname:undefined}))
-          .is('Hello {name} {lastname}!')
+          .is('Hello undefined undefined!')
         .value(text({name:'----------!!!!!!!!!!!!!!!!!!!/////////////////////', lastname:'----------!!!!!!!!!!!!!!!!!!!/////////////////////'}))
           .is('Hello ----------!!!!!!!!!!!!!!!!!!!///////////////////// ----------!!!!!!!!!!!!!!!!!!!/////////////////////!')
      })
