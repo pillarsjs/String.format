@@ -9,7 +9,7 @@ String.prototype.format = function(params){
 };
 function format(string,params){
   var replaced = string;
-  replaced = replaced.replace(/\·\{(.*)\}\·/gmi,function(match,capture,index,all){
+  replaced = replaced.replace(/\·\{(.*?)\}\·/gmi,function(match,capture,index,all){
     var replace;
     try {
       replace = eval(capture);
