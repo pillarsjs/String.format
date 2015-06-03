@@ -1,6 +1,13 @@
 /* jslint node: true */
 "use strict";
 
+global.modulesCache = global.modulesCache || {};
+if(global.modulesCache['string.format']){
+  return;
+} else {
+  global.modulesCache['string.format'] = true;
+}
+
 require('json.decycled');
 
 String.format = format;
