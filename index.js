@@ -20,7 +20,7 @@ function format(string,params){
     var replace;
     try {
       replace = eval(capture);
-      replace = JSON.decycled(replace,{dates:false,regxep:false});
+      replace = JSON.decycled(replace);
       if(typeof replace === 'string'){
         replace = replace.replace(/(^\"|\"$)/g,'').replace(/(\\n|\\r)/g,'\n').replace(/\\t/g,'\t');
       }
