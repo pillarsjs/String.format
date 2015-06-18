@@ -19,7 +19,7 @@ function format(string,params){
   replaced = replaced.replace(/\·\{(.*?)\}\·/gmi,function(match,capture,index,all){
     var replace;
     try {
-      replace = eval(capture);
+      replace = contextEval(params,capture);
       replace = JSON.decycled(replace);
       if(typeof replace === 'string'){
         replace = replace.replace(/(^\"|\"$)/g,'').replace(/(\\n|\\r)/g,'\n').replace(/\\t/g,'\t');
@@ -44,4 +44,11 @@ function format(string,params){
     }
   });
   return replaced;
+}
+
+function contextEval($__context,$__evaluation){
+  for(var i=0,k=Object.keys($__context),l=k.length;i<l;i++){
+    eval("var "+k[i]+" = $__context['"+k[i]+"'];");
+  }
+  return eval($__evaluation);
 }
