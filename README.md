@@ -1,13 +1,13 @@
 # String.format
-![license](https://img.shields.io/badge/license-MIT-blue.svg ) [![Build Status](https://img.shields.io/travis/bifuer/String.format/master.svg)](https://travis-ci.org/bifuer/String.format) [![npm version](https://img.shields.io/npm/v/string.format.svg)](https://www.npmjs.com/package/string.format) [![Github release](https://img.shields.io/github/release/bifuer/String.format.svg)](https://github.com/bifuer/String.format) [![npm downloads](https://img.shields.io/npm/dm/string.format.svg)](https://www.npmjs.com/package/string.format)
+![license](https://img.shields.io/badge/license-MIT-blue.svg ) [![Build Status](https://img.shields.io/travis/pillarsjs/String.format/master.svg)](https://travis-ci.org/pillarsjs/String.format) [![npm version](https://img.shields.io/npm/v/string.format.svg)](https://www.npmjs.com/package/string.format) [![Github release](https://img.shields.io/github/release/bifuer/String.format.svg)](https://github.com/pillarsjs/String.format) [![npm downloads](https://img.shields.io/npm/dm/string.format.svg)](https://www.npmjs.com/package/string.format)
 
 Languages:[[EN](#),[ES](#stringformat-es)]
 
 Add to [JS String.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) `.format()` method which accepts as parameter an object or an array with values to be substituted in the string, based on a pattern.
 
-> String.format uses [JSON.decycled](https://github.com/bifuer/JSON.decycled) for show Objects as String without circular references errors and some related problems.
+> String.format uses [JSON.decycled](https://github.com/pillarsjs/JSON.decycled) for show Objects as String without circular references errors and some related problems.
 
-> For Date object format you can use [Date.format](https://github.com/bifuer/Date.format)
+> For Date object format you can use [Date.format](https://github.com/pillarsjs/Date.format)
 
 [npm](https://www.npmjs.com/package/string.format)
 
@@ -71,9 +71,9 @@ MIT
 
 Añade a [String.prototype de JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) el método `.format()` que acepta como parámetro un objeto o un array con valores que serán sustituidos en el string en base a un patrón de sustitución.
 
-> String.format utiliza [JSON.decycled](https://github.com/bifuer/JSON.decycled) para monstar objetos como strings sin errores de referencia circular y otros problemas relacionados.
+> String.format utiliza [JSON.decycled](https://github.com/pillarsjs/JSON.decycled) para monstar objetos como strings sin errores de referencia circular y otros problemas relacionados.
 
-> Para ampliar las funciones de String.format en el caso de objetos Date puede resultarte util [Date.format](https://github.com/bifuer/Date.format)
+> Para ampliar las funciones de String.format en el caso de objetos Date puede resultarte util [Date.format](https://github.com/pillarsjs/Date.format)
 
 [npm](https://www.npmjs.com/package/string.format)
 

@@ -12,13 +12,13 @@
       "email": "cheloq@gmail.com"
     }
   ],
-  "homepage": "https://github.com/bifuer/string.format",
+  "homepage": "https://github.com/pillarsjs/string.format",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bifuer/string.format"
+    "url": "git://github.com/pillarsjs/string.format"
   },
   "bugs": {
-    "url": "https://github.com/bifuer/string.format/issues",
+    "url": "https://github.com/pillarsjs/string.format/issues",
     "email" : "cheloq@gmail.com"
   },
   "keywords": [
