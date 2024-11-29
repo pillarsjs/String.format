@@ -34,11 +34,16 @@ function format(string,params){
     try {
       capture = '["'+capture.split('.').join('"]["')+'"]';
       replace = eval('params'+capture);
-      replace = JSON.decycled(replace);
-      if(typeof replace === 'string'){
-        replace = replace.replace(/(^\"|\"$)/g,'').replace(/(\\n|\\r)/g,'\n').replace(/\\t/g,'\t');
+      if (replace !== undefined) {
+        replace = JSON.decycled(replace);
+        if(typeof replace === 'string'){
+          replace = replace.replace(/(^\"|\"$)/g,'').replace(/(\\n|\\r)/g,'\n').replace(/\\t/g,'\t');
+        }
+        return replace;
+      } else {
+        return match;
       }
-      return replace;
+      
     } catch(error){
       return match;
     }
